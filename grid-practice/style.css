@@ -1,0 +1,12 @@
+.one-third {
+  width: 33%;
+  height: 5rem;
+  background-color: gray;
+  display: inline-block;
+}
+
+@media (max-width: 992px) {
+  .one-third {
+    width: 100%;
+  }
+}
